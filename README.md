@@ -5,7 +5,20 @@ The work is inspired by the work from Github: https://github.com/timesler/facene
 
 Especially from examples/infer.ipynb script
 
-It is a PC version script: main.py
+It is a PC version script: GasStationFaceRecognition_official.py
+Code summary:
+1. Catch view from camera faced to a door in c-store.
+2. Perform face detection.
+3. Compared detected face with stored person face/catgory in the PC by distance similarity function. 
+4. If distance similarity < distance threshold:
+        Same person
+   else:
+        Different person
+        # Update person face/category in the PC.
+5. Create log files
+6. Demonstrate the video in PC screen.
+   
+
 
 
 
